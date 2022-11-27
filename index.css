@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 10px;
+    min-height: 100vh;
+    background-color: #05191f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    max-width: 500px;
+    padding: 40px 35px;
+    background-color: #04171d;
+    border: 4px solid #233236;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0;
+}
+.heading {
+    color: #6BDB84;
+}
+.wrapper p {
+    font-size: 1.2rem;
+    margin-top: 6px;
+    color: rgb(245, 245, 245);
+}
+hr {
+    height: 2px;
+    border: none;
+    background-color: rgb(23, 32, 32);
+}
+button {
+    width: 200px;
+    border: none;
+    background-color:  #6BDB84;
+    color: #fff;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 1.1rem;
+    border-radius: 2px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #050505;
+    border: 2px solid #6BDB84;
+}
+.psd-container {
+    margin-top: 30px;
+ 
+}
+.psd {
+    width: 140px;
+    padding: 12px 15px;
+    margin: 12px 4px;
+    background-color: rgb(5, 50, 56);
+    color: #6BDB84;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgb(1, 1, 7);
+    border: none;
+    text-align: center;
+    outline: 0;
+    font-family: inherit;
+    position: relative;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.inputs-container {
+    position: relative;
+    
+}
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 18px;
+    color: #344638;
+    cursor: pointer;
+}
+.icon:hover {
+    font-size: 18px;
+}
+  
